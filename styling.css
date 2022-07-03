@@ -3,11 +3,11 @@
   }
   
   body {
-    background-color: #f1f1f1;
+    background-color: #d0d1d75b;
   }
   
   #regForm {
-    background-color: #ffffff;
+    background-color: #8c8a8abb;
     margin: 100px auto;
     font-family: Raleway;
     padding: 40px;
@@ -38,7 +38,7 @@
   }
   
   button {
-    background-color: #04AA6D;
+    background-color: #5861dc;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -52,7 +52,7 @@
   }
   
   #prevBtn {
-    background-color: #bbbbbb;
+    background-color: #ce4dc9;
   }
   
   /* Make circles that indicate the steps of the form: */
@@ -60,7 +60,7 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbbbbb;
+    background-color: #dc1717;
     border: none;  
     border-radius: 50%;
     display: inline-block;
