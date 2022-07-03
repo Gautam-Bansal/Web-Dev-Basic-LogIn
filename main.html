@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="./styling.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styling.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <body>
 
 <form id="regForm" action="/action_page.php">
@@ -26,8 +30,8 @@
   </div>
   <div style="overflow:auto;">
     <div style="float:right;">
-      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)" class="btn btn-success">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)" class="btn btn-success">Next</button>
     </div>
   </div>
   <!-- Circles which indicates the steps of the form: -->

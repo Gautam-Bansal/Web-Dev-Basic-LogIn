@@ -4,19 +4,28 @@
   
   body {
     background-color: #d0d1d75b;
+    background-image: url("tryNewBackgroundImage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   #regForm {
-    background-color: #8c8a8abb;
+    background-color: #64656815;
     margin: 100px auto;
     font-family: Raleway;
     padding: 40px;
     width: 70%;
     min-width: 300px;
+    border-radius: 25px;
   }
   
   h1 {
     text-align: center;  
+  }
+  
+  .container {
+    background-color: white;
   }
   
   input {
@@ -35,6 +44,7 @@
   /* Hide all steps by default: */
   .tab {
     display: none;
+    font-size: 18px;
   }
   
   button {
